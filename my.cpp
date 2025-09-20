@@ -1,13 +1,11 @@
-#include <iostream>
+//Создание пустого списка и пустого стека
 #include <list>
-#include <stack> // нужно добавить для работы со стеком
-#include <string> // нужно добавить для работы со строками
+#include <iostream>
+#include <stack>
 
-int main() {
-    // Создание списка целых чисел
-    std::list<int> numbers = {1, 2, 3, 4, 5};
-    
-    // Создание стека строк (неполный код)
-    std::stack<std::string> stack;
-    // Здесь должны быть операции push(), pop() и т.д.
+int main()
+{
+    std::list<int> list1; //Пустой список
+    std::stack<std::string> stack; //Пустой стек
+    return 0
 }
